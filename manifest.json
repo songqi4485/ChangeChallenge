@@ -1,0 +1,49 @@
+{
+  "scope": "本轮语音热词与Qwen透传变更包，不是完整项目",
+  "baseline": "会话开始前的Qwen迁移工作区；已有未提交的Qwen适配器及AC02入口不作为本轮新增功能",
+  "historical_local_commit": "02fb57e585e7a23282a630ab9179bec00e36241e",
+  "files": [
+    {
+      "path": "configs/voice.yaml",
+      "change": "modified",
+      "preimage_sha256_lf": "2186e4b0717f72c125ada3597cb93ce7d9568d10fd3c0461b3d3d2bc7c4790f9",
+      "result_sha256_lf": "59c93306fa1c9b1c4adcf94faafc46189fc2648f790706f2de5a285ecb729a81"
+    },
+    {
+      "path": "configs/voice_terminology.yaml",
+      "change": "modified",
+      "preimage_sha256_lf": "80f2cb4135a0f80e93924e69dedc1b04b4153741c7f5d0708542f04ef98ea0d1",
+      "result_sha256_lf": "61e1778061a23ce8041ff88334d6654b3c4480123698e95ced4f235b0437c3cd"
+    },
+    {
+      "path": "configs/voice_pronunciation.yaml",
+      "change": "modified",
+      "preimage_sha256_lf": "7b0f9e891f4f23dd60d70deaeab6e5e74bdfc852441e69c5d2c0bd47b37d087e",
+      "result_sha256_lf": "9a2d71a0b38688f6d76a42857f0765f21882c53d9c63e919976809e844930257"
+    },
+    {
+      "path": "src/voice/qwen_asr.py",
+      "change": "modified",
+      "preimage_sha256_lf": "7019dc6966f73f81f1bf37a098d9b2680342481d62afad777324e07520f3875a",
+      "result_sha256_lf": "2f5c1a10b2fac7e26a9f3d9e801a67910288ef86d5bcbb9ff5e3309b8dfa9a23"
+    },
+    {
+      "path": "tests/unit/voice/test_voice_settings.py",
+      "change": "modified",
+      "preimage_sha256_lf": "0eb0e55430af46a0d6423ff4e34c9d1c1adf6f35d6b04e7e8ec046f4cbd55fcb",
+      "result_sha256_lf": "5974d0d27d05d6a0bf425a55b4f4b0fd7d46c3a206ff7f3d6fe52f83ddae56a0"
+    },
+    {
+      "path": "tests/helpers/ac02_offline.py",
+      "change": "modified",
+      "preimage_sha256_lf": "17e702d7491fe3c66405e769ba296e35a189a3243a70adad1f82240f492dc704",
+      "result_sha256_lf": "2abbf8e4d8afaa67069854e08276ea3489f94d828f19051441ab9f402e93b5a6"
+    },
+    {
+      "path": "tests/unit/voice/test_voice_hotwords.py",
+      "change": "new",
+      "preimage_sha256_lf": null,
+      "result_sha256_lf": "0634f53b328ee2263214e7a92d308a411c366bd7a0e77b145e57bc4b2ba7bee2"
+    }
+  ]
+}

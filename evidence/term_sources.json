@@ -1,0 +1,340 @@
+[
+  {
+    "term": "C919",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-aircraft-chinese-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-aircraft-chinese-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "歼-20",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/entities/j20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "运-20",
+    "sources": [
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/entities/y20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "直-20",
+    "sources": [
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/entities/z20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "涡扇发动机",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "涵道比",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "LEAP-1C",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "WS-10C",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-engines-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-engines-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "WS-15",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-engines-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-engines-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/entities/j20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "WS-20",
+    "sources": [
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-engines-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-engines-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/entities/y20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "超临界机翼",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "展弦比",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml"
+    ]
+  },
+  {
+    "term": "翼梢小翼",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "鸭翼",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/entities/j20-entities-extra-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "边条翼",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-components-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "T形尾翼",
+    "sources": [
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/entities/y20-entities-extra-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "主旋翼",
+    "sources": [
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/entities/z20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "尾桨",
+    "sources": [
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/entities/z20-entities-extra-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "副翼",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "襟翼",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-airworthiness-ccar25-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "缝翼",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components-wing-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "起落架",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-components.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "DSI进气道",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-components-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/entities/j20-entities-extra-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "APU",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems-auxiliary-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml"
+    ]
+  },
+  {
+    "term": "电传飞控",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems-flight-control-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-concepts-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-concepts-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/entities/z20-entities-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "航电系统",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities-systems.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/entities/entities.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/entities/j20-entities-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/terms/y20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/y20/04_terms_graph/entities/y20-entities-extra-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-systems-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-systems-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "升力",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "阻力",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-drag-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-drag-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "迎角",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "失速",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-lift-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "马赫数",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-highspeed-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-highspeed-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms.yaml"
+    ]
+  },
+  {
+    "term": "雷达散射截面",
+    "sources": [
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-concepts-20260806-candidate.yaml",
+      "data/knowledge_sources/j20/04_terms_graph/terms/j20-terms-concepts-20260806-candidate.yaml"
+    ]
+  },
+  {
+    "term": "地面效应",
+    "sources": [
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wake-vortex-20260728-candidate.yaml",
+      "data/knowledge_sources/c919/04_terms_graph/terms/terms-aerodynamics-wake-vortex-20260728-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-concepts-20260806-candidate.yaml",
+      "data/knowledge_sources/z20/04_terms_graph/terms/z20-terms-concepts-20260806-candidate.yaml"
+    ]
+  }
+]

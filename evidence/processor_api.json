@@ -1,0 +1,12 @@
+{
+  "transformers_version": "5.22.1",
+  "method": "Qwen3ASRProcessor.apply_transcription_request",
+  "hotword_argument": "prompt",
+  "arguments": [
+    "self",
+    "audio",
+    "language",
+    "prompt"
+  ],
+  "verification": "本机已安装源码AST及方法文档核对；未加载模型"
+}

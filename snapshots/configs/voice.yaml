@@ -1,0 +1,47 @@
+voice:
+  transport: websocket
+  sample_rate: 16000
+  channel_count: 1
+  frame_duration_ms: 20
+  vad_provider: mock
+  vad_threshold: 0.2
+  endpoint_silence_ms: 600
+  # P1-3: energy-VAD debounce against exhibition-hall noise
+  # (3 frames = 60ms start debounce; 10 frames = 200ms minimum speech)
+  vad_start_frames: 3
+  vad_min_voice_frames: 10
+  asr_provider: qwen3_asr
+  asr_low_confidence_threshold: 0.40
+  tts_provider: edge
+  max_utterance_ms: 15000
+  max_frames: 750
+  max_audio_bytes: 480000
+  # P6（2026-08-21 真实联调）：真实 DeepSeek 回答的 brief（含来源引用前缀，
+  # 约 35 字）+ 2 个支撑句 ≈ 135 字 / 22.5s；原 20s/180 字预算会把步数裁剪到
+  # 1 步（低于 min_spoken_explanation_steps=2）而整轮拒读（VOICE_TTS_ERROR，
+  # 显示降级）——mock 长度的答案永远触发不了，仅真实链路暴露。放宽到
+  # 30s/200 字后真实回答可完整朗读，超长回答仍按步数裁剪至预算内。
+  max_spoken_answer_seconds: 30
+  max_spoken_answer_chars: 200
+  spoken_chars_per_second: 6.0
+  min_spoken_explanation_steps: 2
+  max_spoken_explanation_steps: 3
+  barge_in_enabled: true
+  barge_in_priority: 100
+  raw_audio_persist_enabled: false
+  raw_transcript_logging_enabled: false
+  raw_transcript_retention_seconds: 0
+  raw_transcript_redaction_mode: full
+  terminology_lexicon_path: configs/voice_terminology.yaml
+  pronunciation_lexicon_path: configs/voice_pronunciation.yaml
+  asr_config:
+    model_id: "./models/Qwen3-ASR-0.6B-hf"
+    device: "cuda:0"
+    dtype: "bfloat16"
+    language: "Chinese"
+    context: "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼、C919、歼-20、运-20、直-20、涡扇发动机、涵道比、LEAP-1C、WS-10C、WS-15、WS-20、超临界机翼、展弦比、翼梢小翼、鸭翼、边条翼、T形尾翼、主旋翼、尾桨、缝翼、DSI进气道、电传飞控、航电系统、升力、阻力、迎角、失速、马赫数、雷达散射截面、地面效应"
+    prewarm: true
+  tts_config:
+    voice: zh-CN-XiaoxiaoNeural
+    rate: "+0%"
+    volume: "+0%"

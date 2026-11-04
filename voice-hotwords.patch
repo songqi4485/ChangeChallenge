@@ -1,0 +1,193 @@
+diff --git a/configs/voice.yaml b/configs/voice.yaml
+--- a/configs/voice.yaml
++++ b/configs/voice.yaml
+@@ -39,7 +39,7 @@
+     device: "cuda:0"
+     dtype: "bfloat16"
+     language: "Chinese"
+-    context: "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼"
++    context: "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼、C919、歼-20、运-20、直-20、涡扇发动机、涵道比、LEAP-1C、WS-10C、WS-15、WS-20、超临界机翼、展弦比、翼梢小翼、鸭翼、边条翼、T形尾翼、主旋翼、尾桨、缝翼、DSI进气道、电传飞控、航电系统、升力、阻力、迎角、失速、马赫数、雷达散射截面、地面效应"
+     prewarm: true
+   tts_config:
+     voice: zh-CN-XiaoxiaoNeural
+diff --git a/configs/voice_terminology.yaml b/configs/voice_terminology.yaml
+--- a/configs/voice_terminology.yaml
++++ b/configs/voice_terminology.yaml
+@@ -1,8 +1,21 @@
++# 仅规范明确的机型口语读法；专业概念不作推断替换。
+ terms:
+   航道比: 涵道比
+   鸡翼: 机翼
+   C 九一九: C919
+   A G 六百: AG600
++  歼 二十: 歼-20
++  歼二十: 歼-20
++  歼20: 歼-20
++  J20: 歼-20
++  运 二十: 运-20
++  运二十: 运-20
++  运20: 运-20
++  Y20: 运-20
++  直 二十: 直-20
++  直二十: 直-20
++  直20: 直-20
++  Z20: 直-20
+ 
+ simplifications:
+   气流压力分布: 空气流动形成的压力差
+diff --git a/configs/voice_pronunciation.yaml b/configs/voice_pronunciation.yaml
+--- a/configs/voice_pronunciation.yaml
++++ b/configs/voice_pronunciation.yaml
+@@ -2,3 +2,17 @@
+   C919: C 九一九
+   AG600: A G 六百
+   RAG: R A G
++  歼-20: 歼 二十
++  运-20: 运 二十
++  直-20: 直 二十
++  J20: 歼 二十
++  Y20: 运 二十
++  Z20: 直 二十
++  J-20: 歼 二十
++  Y-20: 运 二十
++  Z-20: 直 二十
++  APU: A P U
++  DSI: D S I
++  AESA: A E S A
++  AoA: A O A
++  IMA: I M A
+diff --git a/src/voice/qwen_asr.py b/src/voice/qwen_asr.py
+--- a/src/voice/qwen_asr.py
++++ b/src/voice/qwen_asr.py
+@@ -146,6 +146,7 @@
+             inputs = processor.apply_transcription_request(
+                 audio_array,
+                 language=self.language,
++                prompt=self.context,
+             )
+             inputs = inputs.to(model.device, model.dtype)
+ 
+diff --git a/tests/unit/voice/test_voice_settings.py b/tests/unit/voice/test_voice_settings.py
+--- a/tests/unit/voice/test_voice_settings.py
++++ b/tests/unit/voice/test_voice_settings.py
+@@ -132,7 +132,7 @@
+             "device": "cpu",
+             "compute_type": "int8",
+             "language": "zh",
+-            "initial_prompt": "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼",
++            "initial_prompt": "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼、C919、歼-20、运-20、直-20、涡扇发动机、涵道比、LEAP-1C、WS-10C、WS-15、WS-20、超临界机翼、展弦比、翼梢小翼、鸭翼、边条翼、T形尾翼、主旋翼、尾桨、缝翼、DSI进气道、电传飞控、航电系统、升力、阻力、迎角、失速、马赫数、雷达散射截面、地面效应",
+             "prewarm": True,
+         }
+     else:
+@@ -141,7 +141,7 @@
+             "device": "cuda:0",
+             "dtype": "bfloat16",
+             "language": "Chinese",
+-            "context": "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼",
++            "context": "航空、飞机、发动机、APU、副翼、襟翼、起落架、尾翼、机翼、C919、歼-20、运-20、直-20、涡扇发动机、涵道比、LEAP-1C、WS-10C、WS-15、WS-20、超临界机翼、展弦比、翼梢小翼、鸭翼、边条翼、T形尾翼、主旋翼、尾桨、缝翼、DSI进气道、电传飞控、航电系统、升力、阻力、迎角、失速、马赫数、雷达散射截面、地面效应",
+             "prewarm": True,
+         }
+     assert settings.tts_config == {
+diff --git a/tests/helpers/ac02_offline.py b/tests/helpers/ac02_offline.py
+--- a/tests/helpers/ac02_offline.py
++++ b/tests/helpers/ac02_offline.py
+@@ -238,6 +238,8 @@
+     "tests/unit/test_cost_ledger.py",
+ )
+ VOICE_ANSWER_STREAM_TESTS = (
++    "tests/unit/voice/test_voice_hotwords.py",
++    "tests/unit/voice/test_qwen_asr.py",
+     "tests/unit/core/test_ac02_isolation.py",
+     "tests/unit/core/test_runtime_settings.py",
+     "tests/contracts/test_voice_ws_v1_contract.py",
+diff --git a/tests/unit/voice/test_voice_hotwords.py b/tests/unit/voice/test_voice_hotwords.py
+new file mode 100644
+--- /dev/null
++++ b/tests/unit/voice/test_voice_hotwords.py
+@@ -0,0 +1,86 @@
++from __future__ import annotations
++
++from contextlib import nullcontext
++from pathlib import Path
++from types import SimpleNamespace
++from unittest.mock import Mock
++import sys
++
++import numpy as np
++import pytest
++
++from voice.qwen_asr import QwenASRProvider
++from voice.settings import VoiceSettings
++from voice.terminology import AviationTermCorrector
++
++
++@pytest.mark.parametrize(
++    ("config", "expected"),
++    [
++        ({"context": "涵道比、歼-20、主旋翼"}, "涵道比、歼-20、主旋翼"),
++        ({"initial_prompt": "C919、副翼"}, "C919、副翼"),
++        ({"context": "迎角", "initial_prompt": "不应使用"}, "迎角"),
++        ({}, QwenASRProvider.default_context),
++    ],
++)
++def test_qwen_hotwords_reach_processor_prompt(monkeypatch, config, expected):
++    """Exercise the inference call without importing torch or loading weights."""
++    provider = QwenASRProvider(settings=SimpleNamespace(asr_config=config))
++
++    class Inputs(dict):
++        def to(self, *args):
++            return self
++
++    inputs = Inputs(input_ids=np.array([[1, 2]]))
++    processor = SimpleNamespace(
++        apply_transcription_request=Mock(return_value=inputs),
++        decode=Mock(return_value=["歼-20采用鸭翼布局"]),
++    )
++    model = SimpleNamespace(
++        device="cpu", dtype="float32",
++        generate=Mock(return_value=SimpleNamespace(
++            sequences=np.array([[1, 2, 3]]), scores=(),
++        )),
++    )
++    monkeypatch.setitem(sys.modules, "torch", SimpleNamespace(no_grad=nullcontext))
++    monkeypatch.setattr(provider, "_get_model_and_processor", lambda: (model, processor))
++
++    result = provider._transcribe_sync(np.zeros(160, dtype=np.int16).tobytes())
++
++    call = processor.apply_transcription_request.call_args
++    assert call.kwargs == {"language": "Chinese", "prompt": expected}
++    assert call.args[0].dtype == np.float32
++    assert len(call.args[0]) == 160
++    assert result[0].raw_transcript == "歼-20采用鸭翼布局"
++    assert result[0].provider == "qwen3_asr"
++    assert result[0].end_ms == 10
++    assert model.generate.call_count == 1
++
++
++def test_repository_qwen_config_preserves_model_and_supplies_hotwords():
++    root = Path(__file__).resolve().parents[3]
++    settings = VoiceSettings.from_file(root / "configs/voice.yaml")
++    assert settings.asr_provider == "qwen3_asr"
++    assert settings.asr_config["model_id"] == "./models/Qwen3-ASR-0.6B-hf"
++    assert settings.asr_config["device"] == "cuda:0"
++    assert settings.asr_config["dtype"] == "bfloat16"
++    provider = QwenASRProvider(settings=settings)
++    assert provider.context == settings.asr_config["context"]
++    for term in ("C919", "歼-20", "运-20", "直-20", "涵道比", "主旋翼"):
++        assert term in provider.context
++
++
++@pytest.mark.parametrize(
++    ("source", "expected"),
++    [("歼 二十和运20", "歼-20和运-20"),
++     ("直二十的主旋翼", "直-20的主旋翼"),
++     ("C919客机的全动尾翼", "C919客机的全动尾翼"),
++     ("T形尾翼与蚌壳进气道", "T形尾翼与蚌壳进气道"),
++     ("利普发动机与神雕直升机", "利普发动机与神雕直升机")],
++)
++def test_hotword_normalization_preserves_meaning(source, expected):
++    root = Path(__file__).resolve().parents[3]
++    corrector = AviationTermCorrector(lexicon_path=root / "configs/voice_terminology.yaml")
++    corrected = corrector.correct(source).corrected_transcript
++    assert corrected == expected
++    assert corrector.correct(corrected).corrected_transcript == expected
