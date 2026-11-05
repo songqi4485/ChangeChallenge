@@ -1,0 +1,40 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "interruption_requested": false,
+      "transcripts": [
+        "机翼为什么能够产生升力？"
+      ],
+      "tts_chunk_count": 0,
+      "barge_in_accepted": false,
+      "playback_completed": false,
+      "playback_failed": true,
+      "errors": [
+        {
+          "type": "voice.error",
+          "code": "VOICE_TTS_ERROR",
+          "field": "tts"
+        }
+      ],
+      "tts_errors": [
+        {
+          "sequence_no": 0,
+          "exception": "ConnectError",
+          "message": "All connection attempts failed",
+          "field": null,
+          "details": null
+        }
+      ],
+      "setup_errors": [],
+      "elapsed_s": 2.985,
+      "event_types": [
+        "asr.final",
+        "answer.display",
+        "voice.error"
+      ]
+    }
+  ],
+  "pipeline_request_count": 1,
+  "metrics_count": 1
+}

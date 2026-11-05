@@ -1,0 +1,125 @@
+{
+  "source_commit": "7249b5a366b98b6005484cf46683a1a7a255be25",
+  "validation_kind": "历史证据重算与交付完整性检查；本次不重跑模型或应用测试",
+  "historical_test_reports": [
+    {
+      "kind": "guard",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-guard.json",
+      "source_sha256": "82661920f7ea5e699568f902914ce787c3fef089c00ae20aaf32ff988a3ae31d",
+      "exit_code": 0,
+      "unique_nodeids": 29,
+      "phase_records": 87,
+      "call_outcomes": {
+        "passed": 29
+      }
+    },
+    {
+      "kind": "voice_answer_stream",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-voice_answer_stream.json",
+      "source_sha256": "2b63b320a89bdc27b47c39ba33121bc11e116fc3b804facb465fec50e5d20c1b",
+      "exit_code": 0,
+      "unique_nodeids": 353,
+      "phase_records": 1059,
+      "call_outcomes": {
+        "passed": 353
+      }
+    },
+    {
+      "kind": "all",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-all.json",
+      "source_sha256": "d73aa2bf21d7966ae959800d5b0b9949a9dcd2747e423b74410e61ebc2684672",
+      "exit_code": 0,
+      "unique_nodeids": 1348,
+      "phase_records": 4044,
+      "call_outcomes": {
+        "passed": 1348
+      }
+    }
+  ],
+  "copied_evidence": [
+    {
+      "path": "evidence/corpus.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T06/manifest.json",
+      "sha256": "d9116e8a4b05d2026c0a7cde4af5548cfdce36006c5cdfef75abcec3042d70d1"
+    },
+    {
+      "path": "evidence/speed_records.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_002/records.json",
+      "sha256": "7afdd266fb98ec97d84975093f986089f89ffb96221955bb5a3a5a2e8fcd7b32"
+    },
+    {
+      "path": "evidence/speed_summary.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_002/summary.json",
+      "sha256": "808ded5875ea190919e3cc8a1dc3c4ce89da7dcf98038e5a8edd7f1f767c20cd"
+    },
+    {
+      "path": "evidence/full_records.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/records.json",
+      "sha256": "49ae9841356fdd5a8a199fe29bd24dc6eac67bf432f7748fb06f2026ecd3dd92"
+    },
+    {
+      "path": "evidence/full_summary.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/summary.json",
+      "sha256": "e721338fa26507e853a055d6f639d7c25aaf159aa9cbbd69ee9822341d9919ba"
+    },
+    {
+      "path": "evidence/edge_baseline.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/edge_baseline_001.json",
+      "sha256": "f9b46c0aaebe5ce726dcc4996d9c1954d02119a9cdf04aa9e47858aa86814195"
+    },
+    {
+      "path": "evidence/http_cancel.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/cancel_probe_001.json",
+      "sha256": "5eba481f701f212a2171507d8747ccf8d3c3fa3d0bf481410326777dada0af1d"
+    },
+    {
+      "path": "evidence/websocket_10_rounds.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_10_rounds.json",
+      "sha256": "55a95b3f9d6924972b78aa5932209192be85ca3fa54d776dee416ff4b4bc5195"
+    },
+    {
+      "path": "evidence/websocket_coexistence.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_coexistence.json",
+      "sha256": "6da4130b5f528167d3fac10da3292e59a2489afbdd7c27434835d1c62a395ebf"
+    },
+    {
+      "path": "evidence/no_service.json",
+      "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/no_service_fallback_002.json",
+      "sha256": "fe99f06c2f6f7fcebf943d3c1aa868ee33e2f17a134ca7969bd7cc10202de34e"
+    }
+  ],
+  "nearest_rank_recalculation": {
+    "count": 24,
+    "success": 24,
+    "total_rtf_p95": 1.081,
+    "first_segment_p95_s": 4.703
+  },
+  "performance_pass": false,
+  "full_decode": {
+    "samples": 24,
+    "segments": 31
+  },
+  "original_text_vs_segments_mismatches": [
+    {
+      "id": "TTS-023",
+      "original": "这是一段不带句内标点的朗读测试用于观察模型是否遗漏重复或提前结束输入文字并记录实际生成耗时",
+      "joined_segments": "这是一段不带句内标点的朗读测试用于观察模型是否遗漏重复或提前结束输入文字并记录实际生成耗时。"
+    },
+    {
+      "id": "TTS-024",
+      "original": "本段测试结构化播报。第一步检查结论是否完整。第二步检查解释是否清楚。是否继续下一段？",
+      "joined_segments": "本段测试结构化播报。第一步检查结论是否完整。第二步检查解释是否清楚。是否继续下一段？。"
+    }
+  ],
+  "recorded_timed_script_hash": "99eb136be43ad55abbf0d3a95bc6c7e5ae05adaaf1343eaa764a4070305fe8f4",
+  "final_script_snapshot_hash": "e12d2644f0efe158a18e008c4a934719544c7622d6d955a49687142fbd075640",
+  "timed_script_equals_final_script_plus_one_newline": true,
+  "scope_limits": [
+    "报告基于原工作区，含未跟踪Qwen模块；不是干净提交独立复现实验",
+    "无逐条人工听判、无浏览器实际停播/队列隔离验收",
+    "WS五次取消发生在首段交付后；HTTP合成中取消为另一探针",
+    "已有模型未作revision摘要绑定，核心文件检查不穷尽",
+    "Edge基线0/24，HTTP403，相对延迟不可判定",
+    "未重新验证真实LLM、正式数据库、Unity/PICO"
+  ]
+}

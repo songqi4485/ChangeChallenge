@@ -1,0 +1,95 @@
+{
+  "repository": "songqi4485/ChangeChallenge",
+  "commit": "d178d799ac7c44215cbad03c136bae3b15148e5c",
+  "tree": "2ad57a598ccde150bff0b8fa443757f3b2b023dd",
+  "files": {
+    ".gitattributes": {
+      "blob": "fcadb2cf97913f58a2523f535336e725c6b59d1f",
+      "sha256": "a79691a93b46e49ce460c26ef22afcc03d6eca1e63bf2edbc20e96159510f6c9",
+      "bytes": 14
+    },
+    "README.md": {
+      "blob": "9c7f4dbfca3d4a67ed7fad05feeb52c96c236204",
+      "sha256": "6939c5b0ce388dee2bfe3f15ffb9947cddd7394c65bdd869e1495025372cae3b",
+      "bytes": 5660
+    },
+    "SHA256SUMS": {
+      "blob": "70efad47f581ed0aa0ac132897c6257e2e200085",
+      "sha256": "5cd6b5f12cfa07818a82a92cea4d4a49ba6e4b0dfda44a5cdffd02a29eb86c0c",
+      "bytes": 1440
+    },
+    "evidence/hotwords.json": {
+      "blob": "e4ab8ed9e55aeb5055b9914239a6de6a6e7a9009",
+      "sha256": "4a1cbfef6ae31c6ab4abeab109a8e62603f25869d3bdb785581919017f95fe65",
+      "bytes": 452
+    },
+    "evidence/processor_api.json": {
+      "blob": "436863d205fc62d6db5f5eaff4ac02a2bbee0861",
+      "sha256": "2aa35c7d3ce06893867bd7c33c289a382cecb25bb134384e9bc35cebe5359a9f",
+      "bytes": 292
+    },
+    "evidence/term_sources.json": {
+      "blob": "fc994b767455680feae3c663417e33db1be357c0",
+      "sha256": "2c1396f30b67e129f111bf73fd14c6bd10ef29ba415a5bc62c6ae573c667d6ee",
+      "bytes": 17258
+    },
+    "evidence/verification.json": {
+      "blob": "c87d99a90bf02aa2af12087a6a1fd79b3b44da4c",
+      "sha256": "9a128f0c0eb1c41d6887a645a1f9cacb223a83cd1ff5d85a762794dc129a1c5a",
+      "bytes": 5242
+    },
+    "manifest.json": {
+      "blob": "34e0e0c379754b6e5cf0c0d2e39c697fbe4b1746",
+      "sha256": "0ea9112150f93d1affec93fac9eee5f9f4159c8d4ac62cd6348da3d79e7a8453",
+      "bytes": 2174
+    },
+    "snapshots/configs/voice.yaml": {
+      "blob": "78f2547e38241d1104bf8f4f792f1108f3995b67",
+      "sha256": "59c93306fa1c9b1c4adcf94faafc46189fc2648f790706f2de5a285ecb729a81",
+      "bytes": 2117
+    },
+    "snapshots/configs/voice_pronunciation.yaml": {
+      "blob": "b2d1530ec59040c0fd033b6a4151b68934c11c98",
+      "sha256": "9a2d71a0b38688f6d76a42857f0765f21882c53d9c63e919976809e844930257",
+      "bytes": 302
+    },
+    "snapshots/configs/voice_terminology.yaml": {
+      "blob": "b1241a956c76e67b9a2b0cfdd1b959e4028f59a1",
+      "sha256": "61e1778061a23ce8041ff88334d6654b3c4480123698e95ced4f235b0437c3cd",
+      "bytes": 446
+    },
+    "snapshots/src/voice/qwen_asr.py": {
+      "blob": "793caaf5fe100e231c50d8e22b175d18ade74631",
+      "sha256": "2f5c1a10b2fac7e26a9f3d9e801a67910288ef86d5bcbb9ff5e3309b8dfa9a23",
+      "bytes": 7601
+    },
+    "snapshots/tests/helpers/ac02_offline.py": {
+      "blob": "653a05bee03e317eb56f448c032cdc2282430323",
+      "sha256": "2abbf8e4d8afaa67069854e08276ea3489f94d828f19051441ab9f402e93b5a6",
+      "bytes": 73029
+    },
+    "snapshots/tests/unit/voice/test_voice_hotwords.py": {
+      "blob": "4170ccac6433efa4ec3f3d1e64b988e182377d47",
+      "sha256": "0634f53b328ee2263214e7a92d308a411c366bd7a0e77b145e57bc4b2ba7bee2",
+      "bytes": 3478
+    },
+    "snapshots/tests/unit/voice/test_voice_settings.py": {
+      "blob": "504d3f5ab0a2ecd396670e9e9602f849cd33dc7c",
+      "sha256": "5974d0d27d05d6a0bf425a55b4f4b0fd7d46c3a206ff7f3d6fe52f83ddae56a0",
+      "bytes": 21444
+    },
+    "voice-hotwords.patch": {
+      "blob": "bb459bdacbfa6af1f8b6cae46055f02242af822d",
+      "sha256": "b3a5d9ec6fd523812621651f654789464fd203de10951d99fa80c16acc520ffa",
+      "bytes": 8213
+    }
+  },
+  "readme_original_bytes": 5660,
+  "readme_original_sha256": "6939c5b0ce388dee2bfe3f15ffb9947cddd7394c65bdd869e1495025372cae3b",
+  "readme_append_only": true,
+  "allowed_existing_changes": [
+    "README.md",
+    "SHA256SUMS"
+  ],
+  "checksum_change_reason": "README追加后更新对应校验行，保留其他旧条目并追加新材料"
+}

@@ -1,0 +1,30 @@
+[
+  {
+    "event": "busy_observed",
+    "elapsed_s": 0.046999999991385266
+  },
+  {
+    "event": "client_wait_cancelled",
+    "elapsed_s": 0.046999999991385266
+  },
+  {
+    "event": "after_client_cancel",
+    "busy": true
+  },
+  {
+    "event": "concurrent_request",
+    "status_code": 503
+  },
+  {
+    "event": "model_finished",
+    "elapsed_s": 16.469000000011874
+  },
+  {
+    "event": "next_request",
+    "status_code": 200
+  },
+  {
+    "event": "complete_mp3_bytes",
+    "value": 15596
+  }
+]

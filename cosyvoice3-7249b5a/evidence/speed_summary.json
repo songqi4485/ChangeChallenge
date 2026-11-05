@@ -1,0 +1,41 @@
+{
+  "warmup": [
+    {
+      "request": 1,
+      "elapsed_s": 2.906,
+      "audio_s": 3.336
+    },
+    {
+      "request": 2,
+      "elapsed_s": 2.657,
+      "audio_s": 2.904
+    }
+  ],
+  "count": 24,
+  "ok": 24,
+  "failed": 0,
+  "failures": [],
+  "total_rtf_p50": 0.8355,
+  "total_rtf_p95_nearest_rank": 1.081,
+  "first_segment_ready_p95_s": 4.703,
+  "first_segment_rtf_p95_nearest_rank": 1.1574,
+  "sha256": {
+    "script": "99eb136be43ad55abbf0d3a95bc6c7e5ae05adaaf1343eaa764a4070305fe8f4",
+    "manifest": "7f8d4dafbf0a7b880535d942fad8f004300de5fabd0719425e6fc3a09965aad9",
+    "config": "c390d60582f8e6f90d4485f3d6779b670da6d1fdddf3c088ba6ccb0fe031d414",
+    "uv_lock": "30067e12be5422cee92b98900abf64d534ee98a1d3ec3e33d8a195e6e711321e"
+  },
+  "model": {
+    "host": "127.0.0.1",
+    "port": 50000,
+    "repo_dir": "./tmp/cosyvoice3/CosyVoice",
+    "model_dir": "./models/Fun-CosyVoice3-0.5B",
+    "model_id": "FunAudioLLM/Fun-CosyVoice3-0.5B-2512",
+    "model_revision": "29e01c4e8d000f4bcd70751be16fa94bf3d85a18",
+    "prompt_wav": "./tmp/cosyvoice3/CosyVoice/asset/zero_shot_prompt.wav",
+    "prompt_text": "You are a helpful assistant.<|endofprompt|>希望你以后能够做的比我还好呦。",
+    "spk_id": "yilan_default_spk",
+    "fp16": true,
+    "mp3_bitrate": "96k"
+  }
+}

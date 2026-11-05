@@ -1,0 +1,209 @@
+{
+  "provider": "edge",
+  "voice": "zh-CN-XiaoxiaoNeural",
+  "rate": "+0%",
+  "volume": "+0%",
+  "count": 24,
+  "ok": 0,
+  "failed": 24,
+  "first_segment_ready_p95_s": null,
+  "relative_limit_s": 1.5,
+  "records": [
+    {
+      "id": "TTS-001",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-001",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-001",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-007",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-007",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-007",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "VoiceTTSError: VOICE_TTS_ERROR [stream_timeout]: TTS segment stream timed out"
+    },
+    {
+      "id": "TTS-009",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-009",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-009",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-011",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-011",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-011",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-014",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-014",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-014",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-016",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-016",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-016",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-022",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-022",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-022",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-024",
+      "repeat": 1,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-024",
+      "repeat": 2,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    },
+    {
+      "id": "TTS-024",
+      "repeat": 3,
+      "status": "failed",
+      "first_segment_ready_s": null,
+      "segments": [],
+      "error": "WSServerHandshakeError: HTTP 403"
+    }
+  ],
+  "sha256": {
+    "manifest": "7f8d4dafbf0a7b880535d942fad8f004300de5fabd0719425e6fc3a09965aad9",
+    "provider": "eff2ea512abdd5847dd60d96ade19b83c9bdc6544a72de33daa444c4bacff0b4"
+  }
+}

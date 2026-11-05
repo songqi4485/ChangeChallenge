@@ -1,0 +1,427 @@
+[
+  {
+    "id": "TTS-001",
+    "category": "通用",
+    "text": "你好，欢迎参加本次语音测试。",
+    "segments": [
+      "你好，欢迎参加本次语音测试。"
+    ],
+    "spoken_segments": [
+      "你好，欢迎参加本次语音测试。"
+    ],
+    "joined_sha256": "07fb5b3fc4275e7f455a46c61dee8def0390a68e95f5df2ee84adf8ca033b0d3",
+    "critical_tokens": [
+      "你好",
+      "语音测试"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-002",
+    "category": "通用",
+    "text": "下面先说结论，再用两句话解释。",
+    "segments": [
+      "下面先说结论，再用两句话解释。"
+    ],
+    "spoken_segments": [
+      "下面先说结论，再用两句话解释。"
+    ],
+    "joined_sha256": "e6adbae46f44897e12be856402cfd0d20e12c78b5a6a54e7e0865387dbc33546",
+    "critical_tokens": [
+      "结论",
+      "解释"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-003",
+    "category": "通用",
+    "text": "这个术语需要结合上下文理解。",
+    "segments": [
+      "这个术语需要结合上下文理解。"
+    ],
+    "spoken_segments": [
+      "这个术语需要结合上下文理解。"
+    ],
+    "joined_sha256": "a28dc3564bf53861b36de72584d9de7ffa103e0f295de6d1ac044a5dee5c821c",
+    "critical_tokens": [
+      "术语",
+      "上下文"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-004",
+    "category": "通用",
+    "text": "如果需要，我们可以继续了解下一个问题。",
+    "segments": [
+      "如果需要，我们可以继续了解下一个问题。"
+    ],
+    "spoken_segments": [
+      "如果需要，我们可以继续了解下一个问题。"
+    ],
+    "joined_sha256": "8b93bff7b7cdde1f2e2f6798e8063639ec64439e09709fc3787d7738865b5778",
+    "critical_tokens": [
+      "继续",
+      "问题"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-005",
+    "category": "通用",
+    "text": "这是文字转语音测试，不是事实问答。",
+    "segments": [
+      "这是文字转语音测试，不是事实问答。"
+    ],
+    "spoken_segments": [
+      "这是文字转语音测试，不是事实问答。"
+    ],
+    "joined_sha256": "9bde1e684c0f934636a09b53a3b4a18845d6dc61a7d5ed98b77320b627a8dd47",
+    "critical_tokens": [
+      "文字转语音",
+      "事实问答"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-006",
+    "category": "通用",
+    "text": "请先听完整段，再判断发音是否清楚。",
+    "segments": [
+      "请先听完整段，再判断发音是否清楚。"
+    ],
+    "spoken_segments": [
+      "请先听完整段，再判断发音是否清楚。"
+    ],
+    "joined_sha256": "0fe77ee87a65a238dfbbfb36214a294222c19df488ef9801a0116d064ca8cdf5",
+    "critical_tokens": [
+      "完整段",
+      "发音"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-007",
+    "category": "机型",
+    "text": "测试机型名称：C919。",
+    "segments": [
+      "测试机型名称：C919。"
+    ],
+    "spoken_segments": [
+      "测试机型名称：C 九一九。"
+    ],
+    "joined_sha256": "89931d0e9dd8d6ef982b11f0eb0778d2a9ad56423779e903017c5307a4c5744e",
+    "critical_tokens": [
+      "C 九一九"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-008",
+    "category": "机型",
+    "text": "测试机型名称：AG600。",
+    "segments": [
+      "测试机型名称：AG600。"
+    ],
+    "spoken_segments": [
+      "测试机型名称：A G 六百。"
+    ],
+    "joined_sha256": "a1a98abd8eeb1e0593b0f7ac7bcbce7d7d9ad25cc18ae506197256c55ef308c6",
+    "critical_tokens": [
+      "A G 六百"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-009",
+    "category": "机型",
+    "text": "测试机型名称：歼-20、运-20、直-20。",
+    "segments": [
+      "测试机型名称：歼-20、运-20、直-20。"
+    ],
+    "spoken_segments": [
+      "测试机型名称：歼 二十、运 二十、直 二十。"
+    ],
+    "joined_sha256": "c646f26fc3cdea9a1d725cb06946b0c4629dc446a2943dc0822b24e3ea0aec82",
+    "critical_tokens": [
+      "歼 二十",
+      "运 二十",
+      "直 二十"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-010",
+    "category": "别名",
+    "text": "测试机型别名：J-20、Y-20、Z-20。",
+    "segments": [
+      "测试机型别名：J-20、Y-20、Z-20。"
+    ],
+    "spoken_segments": [
+      "测试机型别名：歼 二十、运 二十、直 二十。"
+    ],
+    "joined_sha256": "4d04206ff5369c871a4017f0a6f83d9d4fe23bf2a5388de0196a31b6ba0176ee",
+    "critical_tokens": [
+      "歼 二十",
+      "运 二十",
+      "直 二十"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-011",
+    "category": "缩写",
+    "text": "测试字母缩写：APU、DSI。",
+    "segments": [
+      "测试字母缩写：APU、DSI。"
+    ],
+    "spoken_segments": [
+      "测试字母缩写：A P U、D S I。"
+    ],
+    "joined_sha256": "4fc9bb3281ec4931bac34143f3738f2b75a2d5143fb972a301407300fa0dc765",
+    "critical_tokens": [
+      "A P U",
+      "D S I"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-012",
+    "category": "缩写",
+    "text": "测试字母缩写：AESA、AoA、IMA。",
+    "segments": [
+      "测试字母缩写：AESA、AoA、IMA。"
+    ],
+    "spoken_segments": [
+      "测试字母缩写：A E S A、A O A、I M A。"
+    ],
+    "joined_sha256": "82cba4c294bfd65dc09682d15029d352e985be7305f75761b35a491696e820c7",
+    "critical_tokens": [
+      "A E S A",
+      "A O A",
+      "I M A"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-013",
+    "category": "缩写",
+    "text": "测试字母缩写：RAG。",
+    "segments": [
+      "测试字母缩写：RAG。"
+    ],
+    "spoken_segments": [
+      "测试字母缩写：R A G。"
+    ],
+    "joined_sha256": "2a4a0483c96d2740129bde760e7eabb18ed9278d42bad2dc689b1524c8a0f4ab",
+    "critical_tokens": [
+      "R A G"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-014",
+    "category": "术语",
+    "text": "测试航空术语：超临界机翼、涵道比、翼梢小翼。",
+    "segments": [
+      "测试航空术语：超临界机翼、涵道比、翼梢小翼。"
+    ],
+    "spoken_segments": [
+      "测试航空术语：超临界机翼、涵道比、翼梢小翼。"
+    ],
+    "joined_sha256": "84145df18fcc3e85eed07b1379ee83506087b6a9600fd12ce0dd8268e0269e7c",
+    "critical_tokens": [
+      "超临界机翼",
+      "涵道比",
+      "翼梢小翼"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-015",
+    "category": "数值",
+    "text": "测试数值：1024、2026、350。",
+    "segments": [
+      "测试数值：1024、2026、350。"
+    ],
+    "spoken_segments": [
+      "测试数值：1024、2026、350。"
+    ],
+    "joined_sha256": "836352201890550c4983f74909bdc4e80ddccc686853d5e55461ba4aaee81f09",
+    "critical_tokens": [
+      "1024",
+      "2026",
+      "350"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-016",
+    "category": "单位",
+    "text": "测试速度读法：350千米每小时。",
+    "segments": [
+      "测试速度读法：350千米每小时。"
+    ],
+    "spoken_segments": [
+      "测试速度读法：350千米每小时。"
+    ],
+    "joined_sha256": "7224d2c214cb4d33c611f37701be809f1ff13c5370dd216663205c8f1a84ac31",
+    "critical_tokens": [
+      "350",
+      "千米每小时"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-017",
+    "category": "小数",
+    "text": "测试长度读法：12.5米。",
+    "segments": [
+      "测试长度读法：12.5米。"
+    ],
+    "spoken_segments": [
+      "测试长度读法：12.5米。"
+    ],
+    "joined_sha256": "c45b83db4c07ed3e99a332bbbe3088ec59ba0c9cce335c58f296106ef2037795",
+    "critical_tokens": [
+      "12.5",
+      "米"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-018",
+    "category": "比例",
+    "text": "测试比例读法：百分之三十，二比一。",
+    "segments": [
+      "测试比例读法：百分之三十，二比一。"
+    ],
+    "spoken_segments": [
+      "测试比例读法：百分之三十，二比一。"
+    ],
+    "joined_sha256": "5fb4645d98f709cb9ec3b8b1495aceed111f323271e4e80f8bab5ba2ac262d29",
+    "critical_tokens": [
+      "百分之三十",
+      "二比一"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-019",
+    "category": "范围",
+    "text": "测试范围读法：20至30，编号001。",
+    "segments": [
+      "测试范围读法：20至30，编号001。"
+    ],
+    "spoken_segments": [
+      "测试范围读法：20至30，编号001。"
+    ],
+    "joined_sha256": "671daf2a0fed673697f95d2096bf6de0f6157f9184af179f81a27b87ed4bc0e0",
+    "critical_tokens": [
+      "20至30",
+      "001"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-020",
+    "category": "符号",
+    "text": "测试符号：A、B、C；第一项，第二项。",
+    "segments": [
+      "测试符号：A、B、C；第一项，第二项。"
+    ],
+    "spoken_segments": [
+      "测试符号：A、B、C；第一项，第二项。"
+    ],
+    "joined_sha256": "d152bcc2ca9e4db3541c10ce1321d0e1ffa397d3d152c6183e88759a02ac7ccd",
+    "critical_tokens": [
+      "A",
+      "B",
+      "C"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-021",
+    "category": "极短",
+    "text": "你好。",
+    "segments": [
+      "你好。"
+    ],
+    "spoken_segments": [
+      "你好。"
+    ],
+    "joined_sha256": "81fddea03ec6aa29ed52fc9b346ca130613650a71fd8d3ffc93077bc27806bc1",
+    "critical_tokens": [
+      "你好"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-022",
+    "category": "多句",
+    "text": "现在开始测试连续句子的衔接。第一句用于观察起始发音。第二句用于观察停顿。第三句用于观察音色是否稳定。最后一句用于观察结尾是否完整。",
+    "segments": [
+      "现在开始测试连续句子的衔接。",
+      "第一句用于观察起始发音。",
+      "第二句用于观察停顿。",
+      "第三句用于观察音色是否稳定。",
+      "最后一句用于观察结尾是否完整。"
+    ],
+    "spoken_segments": [
+      "现在开始测试连续句子的衔接。",
+      "第一句用于观察起始发音。",
+      "第二句用于观察停顿。",
+      "第三句用于观察音色是否稳定。",
+      "最后一句用于观察结尾是否完整。"
+    ],
+    "joined_sha256": "b32adcef8940fcb5dc7fd33d528e1ce4b0d80444460ef9ed5274b8ac0839eb19",
+    "critical_tokens": [
+      "第一句",
+      "最后一句"
+    ],
+    "timed": true
+  },
+  {
+    "id": "TTS-023",
+    "category": "无标点",
+    "text": "这是一段不带句内标点的朗读测试用于观察模型是否遗漏重复或提前结束输入文字并记录实际生成耗时",
+    "segments": [
+      "这是一段不带句内标点的朗读测试用于观察模型是否遗漏重复或提前结束输入文字并记录实际生成耗时。"
+    ],
+    "spoken_segments": [
+      "这是一段不带句内标点的朗读测试用于观察模型是否遗漏重复或提前结束输入文字并记录实际生成耗时。"
+    ],
+    "joined_sha256": "6c9728084b6726f279b6b2f95a931ade1543f720ef4035f3051968f455dac60c",
+    "critical_tokens": [
+      "朗读测试",
+      "生成耗时"
+    ],
+    "timed": false
+  },
+  {
+    "id": "TTS-024",
+    "category": "结构段落",
+    "text": "本段测试结构化播报。第一步检查结论是否完整。第二步检查解释是否清楚。是否继续下一段？",
+    "segments": [
+      "本段测试结构化播报。",
+      "第一步检查结论是否完整。",
+      "第二步检查解释是否清楚。",
+      "是否继续下一段？。"
+    ],
+    "spoken_segments": [
+      "本段测试结构化播报。",
+      "第一步检查结论是否完整。",
+      "第二步检查解释是否清楚。",
+      "是否继续下一段？。"
+    ],
+    "joined_sha256": "f929efa239be2419b4f61f2db1e3b9c630871e647ad04e3603547a11823f8ae0",
+    "critical_tokens": [
+      "结构化播报",
+      "第一步",
+      "第二步"
+    ],
+    "timed": true
+  }
+]

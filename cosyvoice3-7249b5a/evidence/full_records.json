@@ -1,0 +1,548 @@
+[
+  {
+    "id": "TTS-001",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.89,
+        "audio_s": 3.024,
+        "bytes": 36332
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.89,
+    "total_synthesis_s": 3.89,
+    "total_audio_s": 3.024,
+    "wall_s": 3.968,
+    "total_rtf": 1.2864,
+    "first_segment_rtf": 1.2864
+  },
+  {
+    "id": "TTS-002",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.047,
+        "audio_s": 3.024,
+        "bytes": 36332
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.047,
+    "total_synthesis_s": 4.047,
+    "total_audio_s": 3.024,
+    "wall_s": 4.125,
+    "total_rtf": 1.3383,
+    "first_segment_rtf": 1.3383
+  },
+  {
+    "id": "TTS-003",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.953,
+        "audio_s": 2.976,
+        "bytes": 35756
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.953,
+    "total_synthesis_s": 4.953,
+    "total_audio_s": 2.976,
+    "wall_s": 5.016,
+    "total_rtf": 1.6643,
+    "first_segment_rtf": 1.6643
+  },
+  {
+    "id": "TTS-004",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.625,
+        "audio_s": 3.624,
+        "bytes": 43532
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.625,
+    "total_synthesis_s": 4.625,
+    "total_audio_s": 3.624,
+    "wall_s": 4.687,
+    "total_rtf": 1.2762,
+    "first_segment_rtf": 1.2762
+  },
+  {
+    "id": "TTS-005",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 6.313,
+        "audio_s": 4.848,
+        "bytes": 58220
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 6.313,
+    "total_synthesis_s": 6.313,
+    "total_audio_s": 4.848,
+    "wall_s": 6.391,
+    "total_rtf": 1.3022,
+    "first_segment_rtf": 1.3022
+  },
+  {
+    "id": "TTS-006",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.547,
+        "audio_s": 3.528,
+        "bytes": 42380
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.547,
+    "total_synthesis_s": 3.547,
+    "total_audio_s": 3.528,
+    "wall_s": 3.625,
+    "total_rtf": 1.0054,
+    "first_segment_rtf": 1.0054
+  },
+  {
+    "id": "TTS-007",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.969,
+        "audio_s": 3.624,
+        "bytes": 43532
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.969,
+    "total_synthesis_s": 3.969,
+    "total_audio_s": 3.624,
+    "wall_s": 4.047,
+    "total_rtf": 1.0952,
+    "first_segment_rtf": 1.0952
+  },
+  {
+    "id": "TTS-008",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 2.672,
+        "audio_s": 2.568,
+        "bytes": 30860
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 2.672,
+    "total_synthesis_s": 2.672,
+    "total_audio_s": 2.568,
+    "wall_s": 2.734,
+    "total_rtf": 1.0405,
+    "first_segment_rtf": 1.0405
+  },
+  {
+    "id": "TTS-009",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 5.578,
+        "audio_s": 5.376,
+        "bytes": 64556
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 5.578,
+    "total_synthesis_s": 5.578,
+    "total_audio_s": 5.376,
+    "wall_s": 5.657,
+    "total_rtf": 1.0376,
+    "first_segment_rtf": 1.0376
+  },
+  {
+    "id": "TTS-010",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 5.203,
+        "audio_s": 5.376,
+        "bytes": 64556
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 5.203,
+    "total_synthesis_s": 5.203,
+    "total_audio_s": 5.376,
+    "wall_s": 5.265,
+    "total_rtf": 0.9678,
+    "first_segment_rtf": 0.9678
+  },
+  {
+    "id": "TTS-011",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 5.141,
+        "audio_s": 4.056,
+        "bytes": 48716
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 5.141,
+    "total_synthesis_s": 5.141,
+    "total_audio_s": 4.056,
+    "wall_s": 5.219,
+    "total_rtf": 1.2675,
+    "first_segment_rtf": 1.2675
+  },
+  {
+    "id": "TTS-012",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 7.625,
+        "audio_s": 6.504,
+        "bytes": 78092
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 7.625,
+    "total_synthesis_s": 7.625,
+    "total_audio_s": 6.504,
+    "wall_s": 7.687,
+    "total_rtf": 1.1724,
+    "first_segment_rtf": 1.1724
+  },
+  {
+    "id": "TTS-013",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.204,
+        "audio_s": 3.216,
+        "bytes": 38636
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.204,
+    "total_synthesis_s": 3.204,
+    "total_audio_s": 3.216,
+    "wall_s": 3.266,
+    "total_rtf": 0.9963,
+    "first_segment_rtf": 0.9963
+  },
+  {
+    "id": "TTS-014",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 5.734,
+        "audio_s": 5.688,
+        "bytes": 68300
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 5.734,
+    "total_synthesis_s": 5.734,
+    "total_audio_s": 5.688,
+    "wall_s": 5.797,
+    "total_rtf": 1.0081,
+    "first_segment_rtf": 1.0081
+  },
+  {
+    "id": "TTS-015",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.281,
+        "audio_s": 4.344,
+        "bytes": 52172
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.281,
+    "total_synthesis_s": 4.281,
+    "total_audio_s": 4.344,
+    "wall_s": 4.328,
+    "total_rtf": 0.9855,
+    "first_segment_rtf": 0.9855
+  },
+  {
+    "id": "TTS-016",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.141,
+        "audio_s": 3.384,
+        "bytes": 40652
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.141,
+    "total_synthesis_s": 3.141,
+    "total_audio_s": 3.384,
+    "wall_s": 3.203,
+    "total_rtf": 0.9282,
+    "first_segment_rtf": 0.9282
+  },
+  {
+    "id": "TTS-017",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.36,
+        "audio_s": 3.408,
+        "bytes": 40940
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.36,
+    "total_synthesis_s": 3.36,
+    "total_audio_s": 3.408,
+    "wall_s": 3.422,
+    "total_rtf": 0.9859,
+    "first_segment_rtf": 0.9859
+  },
+  {
+    "id": "TTS-018",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.703,
+        "audio_s": 3.936,
+        "bytes": 47276
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.703,
+    "total_synthesis_s": 4.703,
+    "total_audio_s": 3.936,
+    "wall_s": 4.75,
+    "total_rtf": 1.1949,
+    "first_segment_rtf": 1.1949
+  },
+  {
+    "id": "TTS-019",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 5.781,
+        "audio_s": 5.616,
+        "bytes": 67436
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 5.781,
+    "total_synthesis_s": 5.781,
+    "total_audio_s": 5.616,
+    "wall_s": 5.859,
+    "total_rtf": 1.0294,
+    "first_segment_rtf": 1.0294
+  },
+  {
+    "id": "TTS-020",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 4.172,
+        "audio_s": 4.224,
+        "bytes": 50732
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 4.172,
+    "total_synthesis_s": 4.172,
+    "total_audio_s": 4.224,
+    "wall_s": 4.235,
+    "total_rtf": 0.9877,
+    "first_segment_rtf": 0.9877
+  },
+  {
+    "id": "TTS-021",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 1.594,
+        "audio_s": 0.984,
+        "bytes": 11852
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 1.594,
+    "total_synthesis_s": 1.594,
+    "total_audio_s": 0.984,
+    "wall_s": 1.625,
+    "total_rtf": 1.6199,
+    "first_segment_rtf": 1.6199
+  },
+  {
+    "id": "TTS-022",
+    "repeat": 1,
+    "segment_count": 5,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.515,
+        "audio_s": 3.528,
+        "bytes": 42380
+      },
+      {
+        "index": 1,
+        "elapsed_s": 3.812,
+        "audio_s": 3.744,
+        "bytes": 44972
+      },
+      {
+        "index": 2,
+        "elapsed_s": 2.734,
+        "audio_s": 3.168,
+        "bytes": 38060
+      },
+      {
+        "index": 3,
+        "elapsed_s": 2.875,
+        "audio_s": 3.264,
+        "bytes": 39212
+      },
+      {
+        "index": 4,
+        "elapsed_s": 4.016,
+        "audio_s": 4.104,
+        "bytes": 49292
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.515,
+    "total_synthesis_s": 16.952,
+    "total_audio_s": 17.808,
+    "wall_s": 17.265,
+    "total_rtf": 0.9519,
+    "first_segment_rtf": 0.9963
+  },
+  {
+    "id": "TTS-023",
+    "repeat": 1,
+    "segment_count": 1,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 8.594,
+        "audio_s": 10.056,
+        "bytes": 120716
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 8.594,
+    "total_synthesis_s": 8.594,
+    "total_audio_s": 10.056,
+    "wall_s": 8.657,
+    "total_rtf": 0.8546,
+    "first_segment_rtf": 0.8546
+  },
+  {
+    "id": "TTS-024",
+    "repeat": 1,
+    "segment_count": 4,
+    "segments": [
+      {
+        "index": 0,
+        "elapsed_s": 3.359,
+        "audio_s": 3.288,
+        "bytes": 39500
+      },
+      {
+        "index": 1,
+        "elapsed_s": 3.359,
+        "audio_s": 3.384,
+        "bytes": 40652
+      },
+      {
+        "index": 2,
+        "elapsed_s": 3.047,
+        "audio_s": 2.736,
+        "bytes": 32876
+      },
+      {
+        "index": 3,
+        "elapsed_s": 2.391,
+        "audio_s": 1.848,
+        "bytes": 22220
+      }
+    ],
+    "status": "ok",
+    "error": null,
+    "first_segment_ready_s": 3.359,
+    "total_synthesis_s": 12.156,
+    "total_audio_s": 11.256,
+    "wall_s": 12.406,
+    "total_rtf": 1.08,
+    "first_segment_rtf": 1.0216
+  }
+]

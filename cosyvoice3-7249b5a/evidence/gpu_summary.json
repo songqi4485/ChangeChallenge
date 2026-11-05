@@ -1,0 +1,22 @@
+[
+  {
+    "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/gpu_memory.csv",
+    "source_sha256": "c9fa2b83889e4d6f7aa97b81fb41b9815c0035383569a21b61552c38075307c4",
+    "context": "纯TTS，采样与诊断速度批次重叠",
+    "samples": 3257,
+    "max_sample_mib": 5344,
+    "first_timestamp": "2026-11-05T22:34:46.086000",
+    "last_timestamp": "2026-11-05T22:40:40.147000",
+    "mean_interval_ms": 108.7
+  },
+  {
+    "source_path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/gpu_memory_coexist.csv",
+    "source_sha256": "1b73f0126767b6388e1bce12e9621f10fcce9a0913b0f0718217083249c2747f",
+    "context": "另一次ASR/TTS共驻两轮，不是十轮全程",
+    "samples": 596,
+    "max_sample_mib": 6959,
+    "first_timestamp": "2026-11-05T23:00:30.070000",
+    "last_timestamp": "2026-11-05T23:01:34.654000",
+    "mean_interval_ms": 108.5
+  }
+]

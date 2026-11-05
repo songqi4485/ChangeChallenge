@@ -1,0 +1,1274 @@
+{
+  "source_commit_graph": [
+    {
+      "sha": "02fb57e585e7a23282a630ab9179bec00e36241e",
+      "parents": [
+        "abfd48eac69fdbce15516cda86b56cb665333251"
+      ],
+      "committer_time": "2026-11-04T23:53:48+08:00",
+      "subject": "feat(voice): 扩展航空科普术语热词偏置与语音发音纠错表",
+      "counts_no_renames": {
+        "M": 4
+      },
+      "files_no_renames": [
+        {
+          "status": "M",
+          "path": "configs/voice.yaml"
+        },
+        {
+          "status": "M",
+          "path": "configs/voice_pronunciation.yaml"
+        },
+        {
+          "status": "M",
+          "path": "configs/voice_terminology.yaml"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_voice_settings.py"
+        }
+      ]
+    },
+    {
+      "sha": "86b23089bca87ba5f50a97a9e4519a90b8909579",
+      "parents": [
+        "02fb57e585e7a23282a630ab9179bec00e36241e"
+      ],
+      "committer_time": "2026-11-05T17:17:55+08:00",
+      "subject": "保存CosyVoice3替换前分析与实施计划基线",
+      "counts_no_renames": {
+        "M": 2,
+        "A": 64
+      },
+      "files_no_renames": [
+        {
+          "status": "M",
+          "path": ".gitignore"
+        },
+        {
+          "status": "A",
+          "path": ".planning/.active_plan"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/findings.md"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/progress.md"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/source_baseline.json"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/task_plan.md"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_cosyvoice_cli_cosyvoice.py.txt"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_example.py.txt"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_model.py.txt"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_requirements.txt.txt"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_runtime_python_fastapi_server.py.txt"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/upstream_sources.json"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/verification.json"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-feasibility-20261105/verify_analysis.py"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-implementation-plan-20261105/findings.md"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-implementation-plan-20261105/progress.md"
+        },
+        {
+          "status": "A",
+          "path": ".planning/2026-11-05-cosyvoice3-implementation-plan-20261105/task_plan.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/01_测试大纲.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/02_现状与证据.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/03_修复计划.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/04_开源代码复用清单.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/05_回归与本机联调方案.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/06_计划编制总结.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/README.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/00_既有文件保护基线.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/00_目录选择.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/01_源码定位.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/02_上游复用依据.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/02_模型版本.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/02_模型配置快照.yaml.txt"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/03_拟变更文件清单.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/04_编制核验_001.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/04_计划核验.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/05_修订前v1快照.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/06_v1.1修订核验.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/tts_eval_texts.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/HANDOFF.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/README.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/configs/voice.yaml"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/接口与部署/pico4_unity_voice_integration.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/项目总控/AUTO_DEV.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/项目总控/STATUS.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/项目总控/harness.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/项目总控/spec.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/docs/项目总控/task.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/manifest.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/pyproject.toml"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/scripts/run_voice.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/scripts/validate_deployment.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/src/voice/edge_tts.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/src/voice/providers.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/src/voice/websocket_server.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/e2e/scenarios/test_eval_and_deployment_scripts.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/e2e/scenarios/test_voice_flow.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/e2e/test_voice_flow.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/helpers/ac02_offline.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/integration/voice_loop/test_tts_failure_degradation.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/unit/voice/test_edge_tts.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/unit/voice/test_provider_registry.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/unit/voice/test_run_voice.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/unit/voice/test_voice_settings.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/tests/unit/voice/test_voice_websocket_server.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/uv.lock"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/核验计划.py"
+        },
+        {
+          "status": "A",
+          "path": "docs/接口与部署/CosyVoice3替换可行性分析.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/STATUS.md"
+        }
+      ]
+    },
+    {
+      "sha": "fa6925505ab4755ed90028a25e9fb7656509f857",
+      "parents": [
+        "86b23089bca87ba5f50a97a9e4519a90b8909579"
+      ],
+      "committer_time": "2026-11-05T18:45:14+08:00",
+      "subject": "完成CosyVoice3本地TTS替换并移除EdgeTTS",
+      "counts_no_renames": {
+        "M": 25,
+        "A": 15,
+        "D": 2
+      },
+      "files_no_renames": [
+        {
+          "status": "M",
+          "path": "HANDOFF.md"
+        },
+        {
+          "status": "M",
+          "path": "README.md"
+        },
+        {
+          "status": "A",
+          "path": "configs/cosyvoice.yaml"
+        },
+        {
+          "status": "M",
+          "path": "configs/voice.yaml"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/02_测试结果.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/04_修复记录.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/05_回归测试.md"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/benchmark_tts_ab.py"
+        },
+        {
+          "status": "M",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/tts_eval_texts.json"
+        },
+        {
+          "status": "M",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV00/001_回滚备份/manifest.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV05/001_edge_baseline.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV05/002_cosyvoice_timed_8x3.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV05/003_cosyvoice_24_full.json"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R01_CosyVoice3本地TTS替换计划/证据/执行/CV05/004_coexist_10turns_5bargein.json"
+        },
+        {
+          "status": "M",
+          "path": "docs/接口与部署/pico4_unity_voice_integration.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/AUTO_DEV.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/STATUS.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/harness.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/spec.md"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/task.md"
+        },
+        {
+          "status": "M",
+          "path": "pyproject.toml"
+        },
+        {
+          "status": "M",
+          "path": "scripts/run_voice.py"
+        },
+        {
+          "status": "M",
+          "path": "scripts/validate_deployment.py"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/NOTICE"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/requirements.txt"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/server.py"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/setup.ps1"
+        },
+        {
+          "status": "A",
+          "path": "src/voice/cosyvoice_tts.py"
+        },
+        {
+          "status": "D",
+          "path": "src/voice/edge_tts.py"
+        },
+        {
+          "status": "M",
+          "path": "src/voice/providers.py"
+        },
+        {
+          "status": "M",
+          "path": "src/voice/websocket_server.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/scenarios/test_eval_and_deployment_scripts.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/scenarios/test_voice_flow.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/test_voice_flow.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/helpers/ac02_offline.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/integration/voice_loop/test_tts_failure_degradation.py"
+        },
+        {
+          "status": "A",
+          "path": "tests/unit/voice/test_cosyvoice_tts.py"
+        },
+        {
+          "status": "D",
+          "path": "tests/unit/voice/test_edge_tts.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_provider_registry.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_run_voice.py"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_voice_settings.py"
+        },
+        {
+          "status": "M",
+          "path": "uv.lock"
+        }
+      ]
+    },
+    {
+      "sha": "7249b5a366b98b6005484cf46683a1a7a255be25",
+      "parents": [
+        "fa6925505ab4755ed90028a25e9fb7656509f857"
+      ],
+      "committer_time": "2026-11-05T23:41:32+08:00",
+      "subject": "修复CosyVoice调度取消与依赖验收偏差",
+      "counts_no_renames": {
+        "M": 18,
+        "A": 133,
+        "D": 1
+      },
+      "files_no_renames": [
+        {
+          "status": "M",
+          "path": "HANDOFF.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "README.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/03_修复计划.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/05_验收与回归方案.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/06_执行结果.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/README.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/harness.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/spec.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/task.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/00_编制保护.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/01_计划核验.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/baseline/git_head.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/baseline/git_status.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/baseline/uv_pip_check.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/baseline/uv_pip_list.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/baseline/uv_sync_dryrun.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/HANDOFF.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/README.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/接口与部署/pico4_unity_voice_integration.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/项目总控/AUTO_DEV.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/项目总控/STATUS.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/项目总控/harness.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/项目总控/spec.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/docs/项目总控/task.md",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/pyproject.toml",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/services/cosyvoice/NOTICE",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/services/cosyvoice/requirements.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/services/cosyvoice/server.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/services/cosyvoice/setup.ps1",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/src/voice/cosyvoice_tts.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/tests/helpers/ac02_offline.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/tests/integration/voice_loop/test_tts_failure_degradation.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/tests/unit/voice/test_cosyvoice_tts.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/tests/unit/voice/test_run_voice.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/files/uv.lock",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T00/manifest.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T01/before.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T05/bad_config.yaml",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T06/bench_cosyvoice.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T06/manifest.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T06/test_bench_selfcheck.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/asr_input.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/cancel_probe.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/cancel_probe_001.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/edge_baseline_001.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/edge_baseline_probe.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-001/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-002/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-003/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-004/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-005/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-006/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-007/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-008/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-009/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-010/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-011/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-012/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-013/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-014/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-015/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-016/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-017/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-018/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-019/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-020/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-021/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-022/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-022/repeat_1/segment_01.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-022/repeat_1/segment_02.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-022/repeat_1/segment_03.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-022/repeat_1/segment_04.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-023/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-024/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-024/repeat_1/segment_01.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-024/repeat_1/segment_02.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_001/audio/TTS-024/repeat_1/segment_03.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-001/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-002/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-003/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-004/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-005/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-006/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-007/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-008/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-009/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-010/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-011/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-012/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-013/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-014/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-015/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-016/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-017/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-018/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-019/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-020/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-021/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-022/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-022/repeat_1/segment_01.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-022/repeat_1/segment_02.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-022/repeat_1/segment_03.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-022/repeat_1/segment_04.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-023/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-024/repeat_1/segment_00.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-024/repeat_1/segment_01.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-024/repeat_1/segment_02.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/audio/TTS-024/repeat_1/segment_03.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/records.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/full_002/summary.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/generate_asr_fixture.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/gpu_memory.csv",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/gpu_memory_coexist.csv",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/no_service_fallback.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/no_service_fallback_002.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/review_concat.txt",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_001/records.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_001/summary.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_002/records.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/speed_002/summary.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/tts_24_samples_review.mp3",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_10_rounds.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_10_rounds.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_coexistence.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_001.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_002.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_003.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_004.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_005.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T07/websocket_probe_006.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-all.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-guard.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/执行/T08/reports/ac02-voice_answer_stream.json",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "A",
+          "path": "docs/0测试与修复/20261105/R03_CosyVoice3偏差修复计划/证据/核验计划.py",
+          "delivery": "selected evidence only; backups/audio/large reports excluded"
+        },
+        {
+          "status": "M",
+          "path": "docs/接口与部署/pico4_unity_voice_integration.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/AUTO_DEV.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/STATUS.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/harness.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/spec.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "docs/项目总控/task.md",
+          "delivery": "analysis only; application documentation"
+        },
+        {
+          "status": "M",
+          "path": "pyproject.toml",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/NOTICE",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "D",
+          "path": "services/cosyvoice/requirements.txt",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/server.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/setup.ps1",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "src/voice/cosyvoice_tts.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "tests/helpers/ac02_offline.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "tests/integration/voice_loop/test_tts_failure_degradation.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "A",
+          "path": "tests/unit/voice/test_cosyvoice_server.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_cosyvoice_tts.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_run_voice.py",
+          "delivery": "stage-2 patch and surviving snapshot"
+        },
+        {
+          "status": "M",
+          "path": "uv.lock",
+          "delivery": "stage-2 patch and surviving snapshot"
+        }
+      ]
+    }
+  ],
+  "target_repository_base": "d178d799ac7c44215cbad03c136bae3b15148e5c",
+  "source_and_target_have_common_ancestor": false,
+  "source_diff_default_rename_paths": 151,
+  "source_diff_no_renames_paths": 152,
+  "scope": "原应用提交的精选生产差异与证据；不是整个项目历史"
+}

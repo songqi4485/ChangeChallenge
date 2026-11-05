@@ -1,0 +1,17 @@
+CosyVoice 3 Service Wrapper for Yilan AI Tutor
+
+Upstream Repository: https://github.com/QwenAudio/CosyVoice
+Upstream Commit: 074ca6dc9e80a2f424f1f74b48bdd7d3fea531cc
+Model Repository: https://huggingface.co/FunAudioLLM/Fun-CosyVoice3-0.5B-2512
+Model Revision: 29e01c4e8d000f4bcd70751be16fa94bf3d85a18
+License: Apache License, Version 2.0
+
+This directory reuses the official CosyVoice FastAPI inference entrypoint and
+zero-shot speaker caching APIs without modifying upstream model source files.
+
+The local wrapper includes two runtime compatibility adaptations: it loads
+audio with SoundFile and converts samples to the tensor layout expected by
+CosyVoice, and its LLM `forward_one_step` adapter delegates to the
+Transformers model and returns the final hidden state with the model cache.
+These adaptations affect the wrapper process only; they do not modify the
+upstream checkout or model weights.

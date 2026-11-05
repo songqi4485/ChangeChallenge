@@ -1,0 +1,55 @@
+{
+  "rounds": [
+    {
+      "round": 1,
+      "interruption_requested": false,
+      "transcripts": [
+        "机翼为什么能够产生升力？"
+      ],
+      "tts_chunk_count": 4,
+      "barge_in_accepted": false,
+      "playback_completed": true,
+      "playback_failed": false,
+      "errors": [],
+      "tts_errors": [],
+      "setup_errors": [],
+      "elapsed_s": 21.078,
+      "event_types": [
+        "asr.final",
+        "answer.display",
+        "tts.frame",
+        "tts.chunk",
+        "tts.frame",
+        "tts.chunk",
+        "tts.frame",
+        "tts.chunk",
+        "tts.frame",
+        "tts.chunk"
+      ]
+    },
+    {
+      "round": 2,
+      "interruption_requested": true,
+      "transcripts": [
+        "机翼为什么能够产生升力？"
+      ],
+      "tts_chunk_count": 1,
+      "barge_in_accepted": true,
+      "playback_completed": false,
+      "playback_failed": false,
+      "errors": [],
+      "tts_errors": [],
+      "setup_errors": [],
+      "elapsed_s": 5.0,
+      "event_types": [
+        "asr.final",
+        "answer.display",
+        "tts.frame",
+        "tts.chunk",
+        "barge_in.accepted"
+      ]
+    }
+  ],
+  "pipeline_request_count": 2,
+  "metrics_count": 2
+}

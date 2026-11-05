@@ -1,0 +1,328 @@
+{
+  "source_project_commits": {
+    "02fb57e": "02fb57e585e7a23282a630ab9179bec00e36241e",
+    "86b2308": "86b23089bca87ba5f50a97a9e4519a90b8909579",
+    "fa69255": "fa6925505ab4755ed90028a25e9fb7656509f857",
+    "7249b5a": "7249b5a366b98b6005484cf46683a1a7a255be25"
+  },
+  "target_repository_parent": "d178d799ac7c44215cbad03c136bae3b15148e5c",
+  "scope": "迁移前置差异、7249纠偏净差异、11个最终文件快照和精选证据",
+  "stages": [
+    {
+      "patch": "stage-1-fa69255.patch",
+      "base": "86b23089bca87ba5f50a97a9e4519a90b8909579",
+      "target": "fa6925505ab4755ed90028a25e9fb7656509f857",
+      "patch_sha256": "51c1b4499062d61cd8975bcc3c5cf859865e14483aa69cb7d5e72d1ca7b5c54f",
+      "files": [
+        {
+          "status": "A",
+          "path": "configs/cosyvoice.yaml",
+          "preimage_sha256": null,
+          "result_sha256": "c390d60582f8e6f90d4485f3d6779b670da6d1fdddf3c088ba6ccb0fe031d414",
+          "preimage_blob": null,
+          "result_blob": "efd24062dca63528de483f1102bff1f4eff1cbfb"
+        },
+        {
+          "status": "M",
+          "path": "configs/voice.yaml",
+          "preimage_sha256": "9c1939641a531e48e6da406af2681705acc2cbced3cc27991eeed6ccf7a41ec4",
+          "result_sha256": "4c38a8cbb826e35c944d25b0378be4328da0ed30dafe759a9917e64190e609d3",
+          "preimage_blob": "c6c3e2c5d6bb23b4930404a721e3a75807765850",
+          "result_blob": "c40968deae3df3bdc3971379051635675ce6b66c"
+        },
+        {
+          "status": "M",
+          "path": "pyproject.toml",
+          "preimage_sha256": "9671d283d091a5c90a490cbefcdde4990e1ee53d035b524665c027eb75cd2144",
+          "result_sha256": "b48fa53474b0684c36f1d55009fb4f738f53eaad3a88f155756311dea71c5a8a",
+          "preimage_blob": "a506e02b9466de638705010fe0810022d90a3d28",
+          "result_blob": "b09a80c61a615452232a82cbb1003f18ea27ba0b"
+        },
+        {
+          "status": "M",
+          "path": "scripts/run_voice.py",
+          "preimage_sha256": "45df2b6f52e6fa2fcb412a234a1a82027b09f71b4a72a06be29e6cd997fc10f5",
+          "result_sha256": "263d34b43101b86306b1f19c92d7fa602f86c1b55a66b413adadf682da31a176",
+          "preimage_blob": "3dbb6453a6afde9a6bea49712941c6f885eafe4a",
+          "result_blob": "cea4fa022fc6ae92b5f7983bccbf753f2858ee23"
+        },
+        {
+          "status": "M",
+          "path": "scripts/validate_deployment.py",
+          "preimage_sha256": "4e9a3a1fcea3c2148e8e439be48ebdde4cf7f3c3ebf40c1d2eb72acd28bd6bb4",
+          "result_sha256": "bd30fbcd9ba157f40038a0065d4936b5fc7e8a6ee1f4d54bfc1df59cb84d721f",
+          "preimage_blob": "4be680d1f3c49a1ba04af37fc6bb4080f6491f97",
+          "result_blob": "e4580ec4f3f7f7b83b4e5ba04c944fc4f955e0fe"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/NOTICE",
+          "preimage_sha256": null,
+          "result_sha256": "5e60a0fb79b846b10b04d55bf6ab5d46605ea42bcea903c5447bccafc54bc35c",
+          "preimage_blob": null,
+          "result_blob": "d0d69ced48f138fee070741174ccf985c98c17ce"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/requirements.txt",
+          "preimage_sha256": null,
+          "result_sha256": "6b8e531983b37feac8f418483eae4bbb884dd4a83d17aa339b6755b4502516a2",
+          "preimage_blob": null,
+          "result_blob": "e1dcaba547ddca9db6d3ca7eda2380dbf70afc22"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/server.py",
+          "preimage_sha256": null,
+          "result_sha256": "b146c50fb44162c2cdabba8ccf0706171dabbffb81d51d878acae38be0748218",
+          "preimage_blob": null,
+          "result_blob": "b81e20c9a8762a0a5f9e7a0cba456ccaad0a2903"
+        },
+        {
+          "status": "A",
+          "path": "services/cosyvoice/setup.ps1",
+          "preimage_sha256": null,
+          "result_sha256": "1eb3e1c5dd19888722c197700bae6d98b0c1e47a3fda257d6ea933434bd12dba",
+          "preimage_blob": null,
+          "result_blob": "cd6e43c3070d1b4cd5d73b89e2129deb592dc467"
+        },
+        {
+          "status": "A",
+          "path": "src/voice/cosyvoice_tts.py",
+          "preimage_sha256": null,
+          "result_sha256": "15ec53972582c8772dea0b3a86c0cc7f136104dd6566d2e452fedd86a0e8e969",
+          "preimage_blob": null,
+          "result_blob": "720bac7554a9b36b61df37c10724b6e08c1818b5"
+        },
+        {
+          "status": "D",
+          "path": "src/voice/edge_tts.py",
+          "preimage_sha256": "a56e083672903508086d50bc59f1ea82bdb151074047cc2360fdd13c5e32a6ef",
+          "result_sha256": null,
+          "preimage_blob": "5d517eba3c1caca01365ba20d83e14f458ef7741",
+          "result_blob": null
+        },
+        {
+          "status": "M",
+          "path": "src/voice/providers.py",
+          "preimage_sha256": "7f54b72a40d3fd899ab24a416a894b1d6dc066600bcf572707b01c44a3da080e",
+          "result_sha256": "aaf4fabc2a2f7196c06c42e9d526ad3e2c9efd2f9e2d8d692d52ad0fb73cd62c",
+          "preimage_blob": "eb73f447cb3fbedb98e3c6d86d5d42937ab19205",
+          "result_blob": "ab39f67912ee39d9984032ced244ed62ad134d9d"
+        },
+        {
+          "status": "M",
+          "path": "src/voice/websocket_server.py",
+          "preimage_sha256": "54823ae7936fa34764a191f937a3ef7c1b635978e051d4678e817d18c98886a9",
+          "result_sha256": "6f09fef34cca2a2e6c3a30ce53aeb8ca33b639f68901442cf9f5a1b7a9151906",
+          "preimage_blob": "e6e1aac1889bc09a20b85a32f462d5b7a979566c",
+          "result_blob": "6d260fe0c57e8a53758b6b1cf57fb6c3d67d625e"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/scenarios/test_eval_and_deployment_scripts.py",
+          "preimage_sha256": "f6d100b98334894974194778279b976037e086a39e607c07fedc2035b9cc1fa8",
+          "result_sha256": "6f41112e67476b7e667765852aa468ad56cc7f64cb444528987d9e4b274bc2c1",
+          "preimage_blob": "1f55740cf828511629910fc40955a10dba2759ee",
+          "result_blob": "15ae0b8bf0185f18fbf83d2b38a622077abad493"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/scenarios/test_voice_flow.py",
+          "preimage_sha256": "2de0cbc32076fd758ba485b87150f4451c985be3bb6fc6e0932deabc8c93c46b",
+          "result_sha256": "80eb1a2690f73617fdc0ff08eac301d0012d119e5753ca47e4a3e30cdfe6ecad",
+          "preimage_blob": "fdfa5c8518e1a4ae685379db71852d3eba2eb042",
+          "result_blob": "2f9fe95ff926c1dedb2caa1c3b39cab1d053d5e5"
+        },
+        {
+          "status": "M",
+          "path": "tests/e2e/test_voice_flow.py",
+          "preimage_sha256": "a9701e8b23849cd21d245563ab60410a54e6aa0fecaa4574a26606e6a2adefc4",
+          "result_sha256": "6bad166a6335e14805f449912707e4b960b54e00f5e80747eeb494ae086d02af",
+          "preimage_blob": "f6012937a6636db91a4c803d8342a0b2e70dad06",
+          "result_blob": "6066df9ecffd6d8c10465b7e8af9cde9c300bf1d"
+        },
+        {
+          "status": "M",
+          "path": "tests/helpers/ac02_offline.py",
+          "preimage_sha256": "5fb288e6798cb2fa32c428b41e066aaa9630e79eb8969fdd509d6e85498d06fd",
+          "result_sha256": "b8f793b5611af618939a8a81c47a3783d12c31ed5543b79221a5f7e676bd54ad",
+          "preimage_blob": "e95e12fdda9150eb7a83663f31698dc9ec6a6859",
+          "result_blob": "9e3bf0c134012de8f6d251deec16a16a7ebdd497"
+        },
+        {
+          "status": "M",
+          "path": "tests/integration/voice_loop/test_tts_failure_degradation.py",
+          "preimage_sha256": "ae7c331ff85f7de00d5de133d62c94330c0d5e006dfcbc1d89c995aa4e15322e",
+          "result_sha256": "e24ed23ac3a1af00ae42c87e5018f6809d3153be33d320218da58d32dbc991ee",
+          "preimage_blob": "bf530b5456e847eed47fa93c7b83ae8876a8c5f2",
+          "result_blob": "39d3ece6d894f896d46b1ef19f15e71bd9f0ac39"
+        },
+        {
+          "status": "A",
+          "path": "tests/unit/voice/test_cosyvoice_tts.py",
+          "preimage_sha256": null,
+          "result_sha256": "0c0e798a8c20e0653a640addd01a8db775773c358531a44218d47ffd6789fc68",
+          "preimage_blob": null,
+          "result_blob": "db78f86c05ded40d408d263a7868a885ee94fcd2"
+        },
+        {
+          "status": "D",
+          "path": "tests/unit/voice/test_edge_tts.py",
+          "preimage_sha256": "2025f0b1aca29594e41c7abbb04f9953167c1e940a390922a675ee8a3bc56d0a",
+          "result_sha256": null,
+          "preimage_blob": "fb586d0537fa5443f4e30bf3a00add9a0a60bdad",
+          "result_blob": null
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_provider_registry.py",
+          "preimage_sha256": "c8ef684c429bb0faf2369a5e06f30933fc5cb7de202749ca16123e2519268fd6",
+          "result_sha256": "c85f4049a261e5d6a4d78cfe125c2cd5542665c652d525c59ed61a2164bc6979",
+          "preimage_blob": "f8ffd2bc277ee2072b1449cd2e392613f292c26f",
+          "result_blob": "78f88538bda7dd6b3da59927046989af694ec2a1"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_run_voice.py",
+          "preimage_sha256": "3953508fd0d11067c9a57f373ec8cd3133090acd27c3ce20d5ac88f733d49138",
+          "result_sha256": "52f45483ecc28d8746ad76a990264b5c15e9c6b9cd24364240703deb1c647372",
+          "preimage_blob": "5b7a61045345d102b82b01b2d23983999c6edc78",
+          "result_blob": "bd1290e1405e39c591b9ef63df5f2ac0bfbd39c6"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_voice_settings.py",
+          "preimage_sha256": "986b074d205d6b3fb8b3bd0a5885b906bf92d1e0ec29e34d1e3e3eb5dc7ae1f6",
+          "result_sha256": "79b1fc83e3bcf7af31deb7f36879c6f329058fb377de55f2fe416b19e1b3f401",
+          "preimage_blob": "8d0d1de6696afb4686dd0b8275be7d18035dc0cc",
+          "result_blob": "b06fd037fbc37a284760158e5916c121336ea311"
+        },
+        {
+          "status": "M",
+          "path": "uv.lock",
+          "preimage_sha256": "67fa2f8780dbc8da1450e3a6de44086918629dc0ae7a25dae0c1dfa9a6d5a459",
+          "result_sha256": "38ff8c21352c72e55d0a81ce31fb493a3f6aae5f613560722ae764276ccd7dfd",
+          "preimage_blob": "30fa572b0908027cc41a69878d82606abf91d813",
+          "result_blob": "d1d442da77ce0d39d5f80f47d64a578d7644d0ae"
+        }
+      ]
+    },
+    {
+      "patch": "stage-2-7249b5a.patch",
+      "base": "fa6925505ab4755ed90028a25e9fb7656509f857",
+      "target": "7249b5a366b98b6005484cf46683a1a7a255be25",
+      "patch_sha256": "0784e5e6e357c203de6c039c968e8dd0f77f9913f77b9dbdac58b28ca7fe9931",
+      "files": [
+        {
+          "status": "M",
+          "path": "pyproject.toml",
+          "preimage_sha256": "b48fa53474b0684c36f1d55009fb4f738f53eaad3a88f155756311dea71c5a8a",
+          "result_sha256": "53f35bf958d84bed9ee529ff607e31d671b6e13042c5f92f9fdc1b5515e8b5ab",
+          "preimage_blob": "b09a80c61a615452232a82cbb1003f18ea27ba0b",
+          "result_blob": "766b2c2d14234473bdd6530a2c9a712c33d3e2ed"
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/NOTICE",
+          "preimage_sha256": "5e60a0fb79b846b10b04d55bf6ab5d46605ea42bcea903c5447bccafc54bc35c",
+          "result_sha256": "ed4f27ec4662d5455b2e97ad34cee0a9a7927c4c25099afbd131a76bcd094d6b",
+          "preimage_blob": "d0d69ced48f138fee070741174ccf985c98c17ce",
+          "result_blob": "e91ea22e6cbc587caa694ae6c99677d25538352a"
+        },
+        {
+          "status": "D",
+          "path": "services/cosyvoice/requirements.txt",
+          "preimage_sha256": "6b8e531983b37feac8f418483eae4bbb884dd4a83d17aa339b6755b4502516a2",
+          "result_sha256": null,
+          "preimage_blob": "e1dcaba547ddca9db6d3ca7eda2380dbf70afc22",
+          "result_blob": null
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/server.py",
+          "preimage_sha256": "b146c50fb44162c2cdabba8ccf0706171dabbffb81d51d878acae38be0748218",
+          "result_sha256": "40a4b5c9471b653a60d1d3d85dae2ee51c639037b3cd44b2dc034d7717b159d7",
+          "preimage_blob": "b81e20c9a8762a0a5f9e7a0cba456ccaad0a2903",
+          "result_blob": "8d15f70d53c88e96ea064e71cfcd8a508eaa698f"
+        },
+        {
+          "status": "M",
+          "path": "services/cosyvoice/setup.ps1",
+          "preimage_sha256": "1eb3e1c5dd19888722c197700bae6d98b0c1e47a3fda257d6ea933434bd12dba",
+          "result_sha256": "81eace2c6871b94c544a33f6698a3180943e68ebea6121731dbf1b177bae7044",
+          "preimage_blob": "cd6e43c3070d1b4cd5d73b89e2129deb592dc467",
+          "result_blob": "1c202a433d89a2d93fbfcb288d890b3fedf393f0"
+        },
+        {
+          "status": "M",
+          "path": "src/voice/cosyvoice_tts.py",
+          "preimage_sha256": "15ec53972582c8772dea0b3a86c0cc7f136104dd6566d2e452fedd86a0e8e969",
+          "result_sha256": "a6479d345922900c018d1415146e540aec0dc740ffa7fe076f8d79a832e82e90",
+          "preimage_blob": "720bac7554a9b36b61df37c10724b6e08c1818b5",
+          "result_blob": "f1329059b60a2667f49469108db781ad831cc62f"
+        },
+        {
+          "status": "M",
+          "path": "tests/helpers/ac02_offline.py",
+          "preimage_sha256": "b8f793b5611af618939a8a81c47a3783d12c31ed5543b79221a5f7e676bd54ad",
+          "result_sha256": "565b6e11a6c8071a77d9b2e0f5e562d25a412debed3cdbb81c2f281b71d846fa",
+          "preimage_blob": "9e3bf0c134012de8f6d251deec16a16a7ebdd497",
+          "result_blob": "1135719df546347272b00d8e11e02aee3dce77a2"
+        },
+        {
+          "status": "M",
+          "path": "tests/integration/voice_loop/test_tts_failure_degradation.py",
+          "preimage_sha256": "e24ed23ac3a1af00ae42c87e5018f6809d3153be33d320218da58d32dbc991ee",
+          "result_sha256": "93b1a6cab7797991017269280ff5a6d28861ade9213fa5be0bfec06f23c03e00",
+          "preimage_blob": "39d3ece6d894f896d46b1ef19f15e71bd9f0ac39",
+          "result_blob": "cd21ffbc1c400ecf5ada95be878fe9951f8b0a2f"
+        },
+        {
+          "status": "A",
+          "path": "tests/unit/voice/test_cosyvoice_server.py",
+          "preimage_sha256": null,
+          "result_sha256": "9052410e9cfdafe6649e4a1d1a830eddf7499cbba22d9b71f3cfa9407e5119a7",
+          "preimage_blob": null,
+          "result_blob": "f3776e01a85ddc0cbe633cc47448b26040c452c7"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_cosyvoice_tts.py",
+          "preimage_sha256": "0c0e798a8c20e0653a640addd01a8db775773c358531a44218d47ffd6789fc68",
+          "result_sha256": "4b2f911f4022da9e4d20f12f7fc31059d4e038f15c5b00dc81bf17f126b79d6f",
+          "preimage_blob": "db78f86c05ded40d408d263a7868a885ee94fcd2",
+          "result_blob": "1bf9d36e3e891f63773a63c07bc7f86826a37c54"
+        },
+        {
+          "status": "M",
+          "path": "tests/unit/voice/test_run_voice.py",
+          "preimage_sha256": "52f45483ecc28d8746ad76a990264b5c15e9c6b9cd24364240703deb1c647372",
+          "result_sha256": "af100055664aa08b79722ba904c5aa0b771cfa4c9f0532c3457b6f01cf28a6d2",
+          "preimage_blob": "bd1290e1405e39c591b9ef63df5f2ac0bfbd39c6",
+          "result_blob": "ff84b8b150ac108fa39cfab8fc10eb72cda528af"
+        },
+        {
+          "status": "M",
+          "path": "uv.lock",
+          "preimage_sha256": "38ff8c21352c72e55d0a81ce31fb493a3f6aae5f613560722ae764276ccd7dfd",
+          "result_sha256": "30067e12be5422cee92b98900abf64d534ee98a1d3ec3e33d8a195e6e711321e",
+          "preimage_blob": "d1d442da77ce0d39d5f80f47d64a578d7644d0ae",
+          "result_blob": "7b0c6bc38c779fb2c06bdececd381ff1678ba0df"
+        }
+      ]
+    }
+  ],
+  "snapshot_count": 11,
+  "snapshot_bytes_policy": "原始Git blob字节，子目录.gitattributes禁止补丁和快照换行转换",
+  "not_exported": [
+    "完整应用Git历史",
+    "模型权重",
+    "知识库/数据库",
+    "密钥",
+    "音频",
+    "完整历史备份",
+    "其他工作区改动",
+    "原应用文档批量覆盖"
+  ]
+}
